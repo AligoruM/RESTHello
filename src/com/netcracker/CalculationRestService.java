@@ -31,7 +31,7 @@ public class CalculationRestService {
     public String subtractBrowser(@PathParam("a") double a, @PathParam("b") double b) {
         return Double.toString(a - b);
     }
-
+    //не совсем понятно что тут имелось ввиду в задание. Что именно должно быть в @Produces?
     @POST
     @Path("subtract/{a}/{b}")
     @Produces(MediaType.APPLICATION_XML)
